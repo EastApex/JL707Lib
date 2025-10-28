@@ -44,13 +44,13 @@ TODO: Add long description of the pod here.
   
 
   s.vendored_frameworks = [
-    'JLLib/JLLogHelper.framework',
-    'JLLib/JL_OTALib.framework',
-    'JLLib/JL_HashPair.framework',
-    'JLLib/JL_BLEKit.framework',
-    'JLLib/JL_AdvParse.framework',
-    'JLLib/JLDialUnit.framework',
-    'JLLib/JLBmpConvertKit.framework'
+    'JL707Lib/JLLogHelper.framework',
+    'JL707Lib/JL_OTALib.framework',
+    'JL707Lib/JL_HashPair.framework',
+    'JL707Lib/JL_BLEKit.framework',
+    'JL707Lib/JL_AdvParse.framework',
+    'JL707Lib/JLDialUnit.framework',
+    'JL707Lib/JLBmpConvertKit.framework'
   ]
 
 
