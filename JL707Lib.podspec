@@ -33,14 +33,7 @@ TODO: Add long description of the pod here.
 
   s.dependency 'zipzap'
   
-  #s.source_files = [
-  #  'JLLib/JLLogHelper/**/*',
-  #  'JLLib/JL_OTALib/**/*',
-  #  'JLLib/JL_HashPair/**/*',
-  #  'JLLib/JL_BLEKit/**/*',
-  #  'JLLib/JL_AdvPars/**/*',
-  #  'JLLib/JLDialUnit/**/*'
-  #]
+ 
   
 
   s.vendored_frameworks = [
