@@ -3,15 +3,19 @@
 //  EABluetooth
 //
 //  Created by Aye on 2021/3/22.
-//
+//  File Name:28:Raise The Screen【抬手亮屏】
+
 
 #import <EABluetooth/EABaseModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 
-/// id = 28: Raise the screen switch
-/// id = 28: 抬手亮屏开关
+/**
+ * id = 28
+ * Raise the screen switch
+ * 抬手亮屏开关
+ */
 @interface EAGesturesSettingModel : EABaseModel
 
 /// Raised my hand against the bright screen type
@@ -26,11 +30,11 @@ NS_ASSUME_NONNULL_BEGIN
 //@property(nonatomic,  assign) NSInteger endMinute;
 
 
-/// 【全天候开启】
+/// Open【全天候开启】
 + (instancetype)eaInitAllDay;
 
 
-/// 【关闭】
+/// Close【关闭】
 + (instancetype)eaInitClose;
 
 @end

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EAJLBleSDK'
-  s.version          = '1.1.25.3'
+  s.version          = '1.1.25.5'
   s.summary          = 'A short description of EABluetooth.'
 
 # This description is used to generate tags and improve search results.

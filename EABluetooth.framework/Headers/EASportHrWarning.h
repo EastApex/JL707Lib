@@ -3,30 +3,37 @@
 //  EABluetooth
 //
 //  Created by Aye on 2023/6/29.
-//
+//  File Name:57:Sport HR Warning【运动心率报警】
+
 
 #import <EABluetooth/EABluetooth.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 
-/// id = 57
-/// 运动心率报警
-/// Exercise heart rate warning
+
+/**
+ * id = 57
+ * 运动心率报警
+ * Exercise heart rate warning
+ */
 @interface EASportHrWarning : EABaseModel
 
-/// Switch: 0 Off 1 on
-/// 开关： 0关闭 1打开
+/// Switch: 0 Off 1 on【开关： 0关闭 1打开】
 @property(nonatomic, assign) NSInteger sw;
 
-/// Heart rate upper limit
-/// 心率上限值
+/// Heart rate upper limit【心率上限值】
 @property(nonatomic, assign) NSInteger maxHr;
 
-/// Lower heart rate
-/// 心率下限值
+/// Lower heart rate【心率下限值】
 @property(nonatomic, assign) NSInteger minHr;
 
+
+/// Initialization
+/// - Parameters:
+///   - sw: Switch: 0 Off 1 on【开关： 0关闭 1打开】
+///   - maxHr: Heart rate upper limit【心率上限值】
+///   - minHr:  Lower heart rate【心率下限值】
 + (instancetype )eaInitWithSwitch:(NSInteger )sw maxHr:(NSInteger )maxHr minHr:(NSInteger )minHr;
 
 
